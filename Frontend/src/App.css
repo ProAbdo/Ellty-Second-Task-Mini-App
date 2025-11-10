@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 85px;
+  background: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.calculation-tree {
+  width: 100%;
+}
+
+.calculation-tree .calculation-node {
+  margin-bottom: 16px;
+}
