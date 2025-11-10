@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/ProAbdo/Ellty-Second-Task-Mini-App
-cd "Ellty Second Task"
+cd "Ellty-Second-Task-Mini-App"
 ```
 
 2. Start all services with Docker Compose:
