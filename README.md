@@ -1,40 +1,40 @@
-# 🌳 Calculation Tree Application
+#  Calculation Tree Application
 
 A full-stack web application for creating and managing hierarchical calculation trees. Users can start with a number and build complex calculation trees by adding mathematical operations (add, subtract, multiply, divide) that branch from parent calculations.
 
 ## ✨ Features
 
-- 🔐 **User Authentication**: Secure user registration and login with JWT tokens
-- 🌲 **Calculation Trees**: Create hierarchical calculation structures starting from a number
-- ➕➖✖️➗ **Mathematical Operations**: Support for addition, subtraction, multiplication, and division
-- 📊 **Tree Visualization**: Interactive tree view of calculations with parent-child relationships
-- ⚡ **Real-time Updates**: View all calculations and their results in real-time
-- 🎨 **Responsive UI**: Modern, user-friendly interface built with Ant Design
-- 🔌 **RESTful API**: Well-structured backend API with proper error handling
-- 📦 **Database Migrations**: Automated database schema management
-- 🐳 **Docker Support**: Easy deployment with Docker Compose
-- 📝 **Logging**: Comprehensive logging system for debugging and monitoring
+-  **User Authentication**: Secure user registration and login with JWT tokens
+-  **Calculation Trees**: Create hierarchical calculation structures starting from a number
+-  **Mathematical Operations**: Support for addition, subtraction, multiplication, and division
+-  **Tree Visualization**: Interactive tree view of calculations with parent-child relationships
+-  **Real-time Updates**: View all calculations and their results in real-time
+-  **Responsive UI**: Modern, user-friendly interface built with Ant Design
+-  **RESTful API**: Well-structured backend API with proper error handling
+-  **Database Migrations**: Automated database schema management
+-  **Docker Support**: Easy deployment with Docker Compose
+-  **Logging**: Comprehensive logging system for debugging and monitoring
 
 ## 🛠️ Tech Stack
 
 ### 🔙 Backend
 
-- 🟢 **Node.js** with **Express.js** - RESTful API server
-- 📘 **TypeScript** - Type-safe development
-- 🐘 **PostgreSQL** - Relational database
-- 🔷 **Sequelize** - ORM for database operations
-- 🔑 **JWT** - Authentication and authorization
-- 🔒 **bcryptjs** - Password hashing
-- 📋 **Winston** - Logging
-- ✔️ **Express Validator** - Input validation
-- 🧪 **Jest** - Testing framework
+-  **Node.js** with **Express.js** - RESTful API server
+-  **TypeScript** - Type-safe development
+-  **PostgreSQL** - Relational database
+-  **Sequelize** - ORM for database operations
+-  **JWT** - Authentication and authorization
+-  **bcryptjs** - Password hashing
+-  **Winston** - Logging
+-  **Express Validator** - Input validation
+-  **Jest** - Testing framework
 
 ### 🎨 Frontend
 
-- ⚛️ **React 19** - UI library
-- ⚡ **Vite** - Build tool and dev server
-- 🎯 **Ant Design** - UI component library
-- 🔄 **React Context API** - State management
+-  **React 19** - UI library
+-  **Vite** - Build tool and dev server
+-  **Ant Design** - UI component library
+-  **React Context API** - State management
 
 ### 🏗️ Infrastructure
 
@@ -46,10 +46,10 @@ A full-stack web application for creating and managing hierarchical calculation 
 
 Before you begin, ensure you have the following installed:
 
-- 🟢 **Node.js** (v20 or higher)
-- 📦 **npm** or **yarn**
-- 🐳 **Docker** and **Docker Compose** (for containerized deployment)
-- 🐘 **PostgreSQL** (if running without Docker)
+-  **Node.js** (v20 or higher)
+-  **npm** or **yarn**
+-  **Docker** and **Docker Compose** (for containerized deployment)
+-  **PostgreSQL** (if running without Docker)
 
 ## 🚀 Installation
 
@@ -75,9 +75,9 @@ This will start:
 - Frontend application on port `3000`
 
 3. Access the application:
-   - 🌐 Frontend: http://localhost:3000
-   - 🔌 Backend API: http://localhost:8000
-   - ❤️ Health Check: http://localhost:8000/health
+   -  Frontend: http://localhost:3000
+   -  Backend API: http://localhost:8000
+   -  Health Check: http://localhost:8000/health
 
 ### Option 2: 💻 Local Development
 
@@ -326,20 +326,20 @@ GET /health
 
 ### 🔙 Backend Scripts
 
-- 🔨 `npm run build` - Build TypeScript to JavaScript
-- 🚀 `npm start` - Start production server
-- 💻 `npm run dev` - Start development server with hot reload
-- 🧪 `npm test` - Run tests
-- 👀 `npm run test:watch` - Run tests in watch mode
-- 📊 `npm run test:coverage` - Run tests with coverage report
-- 🗄️ `npm run migrate` - Run database migrations
+-  `npm run build` - Build TypeScript to JavaScript
+-  `npm start` - Start production server
+-  `npm run dev` - Start development server with hot reload
+-  `npm test` - Run tests
+-  `npm run test:watch` - Run tests in watch mode
+-  `npm run test:coverage` - Run tests with coverage report
+-  `npm run migrate` - Run database migrations
 
 ### 🎨 Frontend Scripts
 
-- 💻 `npm run dev` - Start development server
-- 🔨 `npm run build` - Build for production
-- 👁️ `npm run preview` - Preview production build
-- ✔️ `npm run lint` - Run ESLint
+-  `npm run dev` - Start development server
+-  `npm run build` - Build for production
+-  `npm run preview` - Preview production build
+-  `npm run lint` - Run ESLint
 
 ## 🧪 Testing
 
@@ -360,8 +360,8 @@ npm run test:coverage
 
 ### 📝 Test Files
 
-- 🔐 `Backend/src/tests/auth.test.ts` - Authentication tests
-- 🧮 `Backend/src/tests/calculation.test.ts` - Calculation tests
+-  `Backend/src/tests/auth.test.ts` - Authentication tests
+-  `Backend/src/tests/calculation.test.ts` - Calculation tests
 
 ## 🗄️ Database Migrations
 
@@ -376,8 +376,8 @@ npm run migrate
 
 Application logs are stored in the `Backend/logs/` directory:
 
-- 📋 `combined.log` - All logs
-- ❌ `error.log` - Error logs only
+-  `combined.log` - All logs
+-  `error.log` - Error logs only
 
 ## 💻 Development
 
